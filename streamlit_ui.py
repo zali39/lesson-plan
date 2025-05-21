@@ -4,7 +4,7 @@ import streamlit as st
 import requests
 import uuid
 
-API_BASE = "http://localhost:8000"  # Adjust if deployed elsewhere
+API_BASE = "http://127.0.0.1:8000"  # Adjust if deployed elsewhere
 
 # === Session Management ===
 if "session_id" not in st.session_state:
